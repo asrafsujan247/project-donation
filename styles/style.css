@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 
 }
+
 /* header section */
-.header-section{
+.header-section {
     background-image: url("../images/donation7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,32 +14,93 @@
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
-.header-info{
+
+.header-info {
     text-align: center;
     padding: 350px 400px 300px;
-    
+
 }
-.header-title{
+
+.header-title {
     font-size: 50px;
     font-weight: 800;
     color: white;
     margin-bottom: 20px;
 }
-.description{
+
+.description {
     font-size: 20px;
     color: lightgray;
     margin-bottom: 25px;
-   
+
 }
 
-.button{
+.button {
     background-color: #FF5959;
     color: white;
     border-radius: 5px;
     border-style: none;
+    font-weight: 600px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.button-header{
-    padding: 10px 20px;
-    font-weight: 200px;
 
+.button-header {
+    padding: 15px 30px;
+}
+
+/* amount section */
+.amount-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.amount-info {
+    text-align: center;
+}
+.amount-title{
+    font-size: 50px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    font-family:sans-serif;
+
+}
+.amount-description{
+    font-size: 20px;
+    color: #707070;
+    margin-bottom: 50px;
+
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.taka{
+    margin-right: 40px;
+    padding:40px 50px;
+    background: #FAFAFA;
+    border-style: none;
+    border-radius: 18px;
+    font-size: 30px;
+    font-weight: 700px;
+    color: #707070;
+}
+.premium-offer{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.other-amount{
+    font-size:20px;
+    color: #B3B3B3;
+    border-bottom:1px solid  #B3B3B3 ;
+    margin-bottom: 40px;
+}
+.amount-button{
+    padding: 15px 30px;
+    font-weight: 700px;
 }
